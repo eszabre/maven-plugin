@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  ~ Copyright 2014 Szabolcs Balazs Beres.
+  ~ Copyright 2015 Szabolcs Balazs Beres.
   ~
   ~    Licensed under the Apache License, Version 2.0 (the "License");
   ~    you may not use this file except in compliance with the License.
@@ -18,13 +18,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<parent>
-		<groupId>com.github.eszabre.maven-plugin</groupId>
-		<artifactId>maven-plugin</artifactId>
-		<version>1.0-SNAPSHOT</version>
-	</parent>
 	<modelVersion>4.0.0</modelVersion>
 
+	<groupId>com.github.eszabre.maven-plugin</groupId>
+	<version>1.0-SNAPSHOT</version>
 	<artifactId>test-project</artifactId>
 
 	<packaging>my-packaging</packaging>
