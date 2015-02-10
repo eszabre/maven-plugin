@@ -22,9 +22,9 @@ import org.apache.maven.plugins.annotations.LifecyclePhase;
 import org.apache.maven.plugins.annotations.Mojo;
 
 @Mojo(name = "something", defaultPhase = LifecyclePhase.PACKAGE)
-public class MyMojo extends AbstractMojo {
+public class SimpleMojo extends AbstractMojo {
 
 	public void execute() throws MojoExecutionException {
-		System.out.println("MyMojo.execute");
+		getLog().info("SimpleMojo.execute");
 	}
 }
