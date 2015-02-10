@@ -28,9 +28,7 @@
 					org.apache.maven.plugins:maven-resources-plugin:resources
 				</process-resources>
 				<package>
-					org.apache.maven.plugins:maven-jar-plugin:jar
-				</package>
-				<package>
+					org.apache.maven.plugins:maven-jar-plugin:jar,
 					com.github.eszabre.maven-plugin:first-maven-plugin:something
 				</package>
 				<install>
